@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Configurator">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="18" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="19" width="1480" height="613"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-lowered"/>
+    <children>
+      <component id="2cc1d" class="javax.swing.JRadioButton" binding="radioButtonIntel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Intel"/>
+        </properties>
+      </component>
+      <component id="4aed9" class="javax.swing.JRadioButton" binding="radioButtonAMD">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="AMD"/>
+        </properties>
+      </component>
+      <component id="4222a" class="javax.swing.JLabel" binding="baseModelLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Base Model Specs:"/>
+        </properties>
+      </component>
+      <component id="c5724" class="javax.swing.JLabel" binding="ramLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="549de"/>
+          <text value="RAM:"/>
+        </properties>
+      </component>
+      <component id="bbde9" class="javax.swing.JLabel" binding="hardDriveLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="4c8ed"/>
+          <text value="Hard Drive:"/>
+        </properties>
+      </component>
+      <component id="de285" class="javax.swing.JLabel" binding="secondaryStorageLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="496e1"/>
+          <text value="Secondary Storage:"/>
+        </properties>
+      </component>
+      <component id="b67e6" class="javax.swing.JLabel" binding="audioLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="39063"/>
+          <text value="Audio:"/>
+        </properties>
+      </component>
+      <component id="52175" class="javax.swing.JLabel" binding="osLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="87c05"/>
+          <text value="OS:"/>
+        </properties>
+      </component>
+      <component id="216ec" class="javax.swing.JLabel" binding="speakerLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="47bd3"/>
+          <text value="Speaker:"/>
+        </properties>
+      </component>
+      <component id="cbff8" class="javax.swing.JLabel" binding="keyboardLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="39d6c"/>
+          <text value="Keyboard:"/>
+        </properties>
+      </component>
+      <component id="5463b" class="javax.swing.JLabel" binding="mouseLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="3918"/>
+          <text value="Mouse:"/>
+        </properties>
+      </component>
+      <component id="4c8ed" class="javax.swing.JTextField" binding="hardDriveTextField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="496e1" class="javax.swing.JTextField" binding="secondaryStorageTextField">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="39063" class="javax.swing.JTextField" binding="audioTextField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="87c05" class="javax.swing.JTextField" binding="osTextField">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="47bd3" class="javax.swing.JTextField" binding="speakerTextField">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="39d6c" class="javax.swing.JTextField" binding="keyboardTextField">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="3918" class="javax.swing.JTextField" binding="mouseTextField">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="9bc71" class="javax.swing.JLabel" binding="userIntelCpuLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Intel CPU:"/>
+        </properties>
+      </component>
+      <component id="61ad9" class="javax.swing.JLabel" binding="costLabel">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cost Addition:"/>
+        </properties>
+      </component>
+      <component id="bfefc" class="javax.swing.JTextField" binding="intelCpuCostTextField">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="9b01c" class="javax.swing.JLabel" binding="pickBaseModelLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="5" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Select your base model Computer:"/>
+        </properties>
+      </component>
+      <component id="549de" class="javax.swing.JTextField" binding="ramTextField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="e01e6" class="javax.swing.JTextField" binding="cpuTextField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="2c72d" class="javax.swing.JLabel" binding="userSelectionLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Pick Your Components:"/>
+        </properties>
+      </component>
+      <component id="849a5" class="javax.swing.JLabel" binding="amdGraphicsLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="AMD Graphics:"/>
+        </properties>
+      </component>
+      <component id="3b47a" class="javax.swing.JTextField" binding="amdGraphicsTextField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1639" class="javax.swing.JComboBox" binding="intelCpuComboBox">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select one below:"/>
+            <item value="Intel Celeron processor G1610 (Base Model)"/>
+            <item value="G1620 2.70GHz"/>
+            <item value="G1630 2.80GHz"/>
+            <item value="G1820 2.70GHz"/>
+            <item value="G1830 2.80GHz"/>
+          </model>
+          <name value=""/>
+          <opaque value="false"/>
+          <popupVisible value="false"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="14f05" class="javax.swing.JLabel" binding="cpuLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="e01e6"/>
+          <text value="CPU:"/>
+        </properties>
+      </component>
+      <component id="5cf0b" class="javax.swing.JLabel" binding="baseModelCostLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="119c5"/>
+          <text value="Base Model Cost:"/>
+        </properties>
+      </component>
+      <component id="119c5" class="javax.swing.JTextField" binding="baseModelCostTextField">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="ba463" class="javax.swing.JTextField" binding="subTotalTextField">
+        <constraints>
+          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="45a9e" class="javax.swing.JLabel" binding="taxLabel">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="b96bb"/>
+          <text value="Tax:"/>
+        </properties>
+      </component>
+      <component id="eec5" class="javax.swing.JLabel" binding="subTotalLabel">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <labelFor value="ba463"/>
+          <text value="Subtotal:"/>
+        </properties>
+      </component>
+      <component id="66630" class="javax.swing.JCheckBox" binding="appPackageCheckBox4">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Graphics Package"/>
+        </properties>
+      </component>
+      <component id="9ee19" class="javax.swing.JCheckBox" binding="appPackageCheckBox2">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Microsoft Office Home and Business 2013"/>
+        </properties>
+      </component>
+      <component id="1e9d3" class="javax.swing.JCheckBox" binding="appPackageCheckBox1">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Microsoft Office Home and Student 2013"/>
+        </properties>
+      </component>
+      <component id="3cc64" class="javax.swing.JLabel" binding="appPackageLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Application Package:"/>
+        </properties>
+      </component>
+      <component id="df92e" class="javax.swing.JLabel" binding="userOsLabel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="OS:"/>
+        </properties>
+      </component>
+      <component id="489a5" class="javax.swing.JRadioButton" binding="osRadioButton1">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Windows 8.1 (Default)"/>
+        </properties>
+      </component>
+      <component id="9e422" class="javax.swing.JCheckBox" binding="appPackageCheckBox3">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Accounting Package"/>
+        </properties>
+      </component>
+      <component id="b1895" class="javax.swing.JRadioButton" binding="osRadioButton2">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Windows 8.1 Pro"/>
+        </properties>
+      </component>
+      <component id="547eb" class="javax.swing.JRadioButton" binding="osRadioButton3">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Linux"/>
+        </properties>
+      </component>
+      <component id="ba217" class="javax.swing.JTextField" binding="appPackageCostTextField">
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="7a09e" class="javax.swing.JTextField" binding="osCostTextField">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="fb783" class="javax.swing.JLabel" binding="userSecondaryStorageLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Secondary Storage:"/>
+        </properties>
+      </component>
+      <component id="f5f7e" class="javax.swing.JComboBox" binding="secondaryStorageComboBox">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select one below:"/>
+            <item value="CD-ROM"/>
+            <item value="DVD Drive"/>
+            <item value="Combo DVD or CDRW"/>
+            <item value="DVD and CDRW"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1265f" class="javax.swing.JComboBox" binding="gpuComboBox">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select one below:"/>
+            <item value="NVIDA GeForce G310 512MB DDR3"/>
+            <item value="NVIDA GeForce GT620 1GB DDR3"/>
+            <item value="NVIDA GeForce GT640 1GB GDDR5"/>
+          </model>
+        </properties>
+      </component>
+      <component id="29845" class="javax.swing.JComboBox" binding="hardDriveComboBox">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select one below:"/>
+            <item value="125GB (Base Model)"/>
+            <item value="250GB"/>
+            <item value="500GB"/>
+            <item value="1TB"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1198a" class="javax.swing.JComboBox" binding="ramComboBox">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select one below:"/>
+            <item value="4GB (Base Model)"/>
+            <item value="6GB"/>
+            <item value="8GB"/>
+            <item value="12GB"/>
+            <item value="16GB"/>
+          </model>
+        </properties>
+      </component>
+      <component id="547be" class="javax.swing.JLabel" binding="userGPULabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="GPU:"/>
+        </properties>
+      </component>
+      <component id="fe3e0" class="javax.swing.JLabel" binding="userHardDriveLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Hard Drive:"/>
+        </properties>
+      </component>
+      <component id="61756" class="javax.swing.JLabel" binding="userRamLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="142" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="RAM:"/>
+        </properties>
+      </component>
+      <component id="fd605" class="javax.swing.JTextField" binding="secondaryStorageCostTextField">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="17b4d" class="javax.swing.JTextField" binding="gpuCostTextField">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="3b422" class="javax.swing.JTextField" binding="hardDriveCostTextField">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5ef93" class="javax.swing.JTextField" binding="ramCostTextField">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="3a22b" class="javax.swing.JLabel" binding="userAmdCpuLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="AMD CPU:"/>
+        </properties>
+      </component>
+      <component id="ba3f7" class="javax.swing.JComboBox" binding="amdCpuComboBox">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select one below:"/>
+            <item value="AMD FX-2100 for Desktops (Base Model)"/>
+            <item value="FX-8350"/>
+            <item value="FX-9590"/>
+            <item value="FX-4100"/>
+            <item value="FX-4300"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e407c" class="javax.swing.JTextField" binding="amdCpuCostTextField">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="b96bb" class="javax.swing.JTextField" binding="taxTextField">
+        <constraints>
+          <grid row="13" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="19fb4" class="javax.swing.JLabel" binding="totalBeforeShipLabel">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Total (before shipping):"/>
+        </properties>
+      </component>
+      <component id="ebe03" class="javax.swing.JTextField" binding="totalBeforeShipTextField">
+        <constraints>
+          <grid row="14" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="17f" class="javax.swing.JTextField" binding="shippingHandlingTextField">
+        <constraints>
+          <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5b068" class="javax.swing.JLabel" binding="shippingHandlingLabel">
+        <constraints>
+          <grid row="15" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Shipping and Handling"/>
+        </properties>
+      </component>
+      <component id="19c40" class="javax.swing.JButton" binding="calculateTaxShippingTotalButton">
+        <constraints>
+          <grid row="17" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculate"/>
+        </properties>
+      </component>
+      <component id="7ff35" class="javax.swing.JButton" binding="orderButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="orderButtonIcon2.png"/>
+          <iconTextGap value="10"/>
+          <inheritsPopupMenu value="true"/>
+          <text value="Order"/>
+        </properties>
+      </component>
+      <component id="bf22" class="javax.swing.JLabel" binding="totalLabel">
+        <constraints>
+          <grid row="16" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Total:"/>
+        </properties>
+      </component>
+      <component id="df06a" class="javax.swing.JButton" binding="clearButton">
+        <constraints>
+          <grid row="17" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="3f5e6" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="17" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="exitButtonIcon2.png"/>
+          <iconTextGap value="10"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="ec07f" class="javax.swing.JTextField" binding="totalTextField">
+        <constraints>
+          <grid row="16" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="2b9dd" class="javax.swing.JButton" binding="printButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Print"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="myToggleGroup">
+      <member id="2cc1d"/>
+      <member id="4aed9"/>
+    </group>
+    <group name="osRadioButtonGroup">
+      <member id="489a5"/>
+      <member id="b1895"/>
+      <member id="547eb"/>
+    </group>
+    <group name="appPackageCheckButtonGroup">
+      <member id="1e9d3"/>
+      <member id="9ee19"/>
+      <member id="9e422"/>
+      <member id="66630"/>
+    </group>
+  </buttonGroups>
+</form>
